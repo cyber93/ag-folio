@@ -7,7 +7,7 @@ subtitle: Computer Science and Engineering · Principal Software Engineer
 
 profile:
   align: right
-  image: HDLee.jpg
+  image: HDLee2.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
 
