@@ -7,13 +7,14 @@
 abbr={IEEE TC},
   title={Pangaea v2: CXL-based Disaggregated Memory System Architecture for Cloud-Native Orchestration},
   author={Han Deok Lee et al.},
-  abstract={Shared storage has become commonplace with recent trends in storage technologies, such as storage consolidation and virtualization, etc. Meanwhile, storage QoS, which guarantees different storage service requirements from various applications toward shared storage, is gaining in importance. This paper proposes a new scheme which combines a feedback-controlled leaky bucket with a fair queuing algorithm in order to deliver guaranteed storage service for applications competing for shared storage. It not only assures an agreed-upon response time for each application, but also maximizes the aggregate I/O throughput by proportionating unused bandwidth to other active applications. Simulation results under various types of competing I/O workloads validate the features of the proposed scheme.},
+  abstract={Today’s data centers suffer from CPU and memory resource stranding because they often over-provision resources when deploying servers for worst-case scenarios. This problem gives rise to a disaggregated system architecture allowing each type of resource to be allocated, utilized and freed separately as required. In particular, research on disaggregated memory systems over the past few years has focused primarily on achieving low remote memory access latency over Ethernet, which is known as the RDMA optimization approach.
+In this paper, we introduce a dynamic rack-scale disaggregated memory system architecture, so called Pangaea v2 using ASIC-CXL H/W and memory orchestration S/W designed to increase the memory utilization of worker nodes between containerized applications execution in a Kubernetes, a major process container platform in the data center. In our evaluation with in-memory database application, disaggregated CXL memory system shows significantly better throughput improved by up to 10.2x/6.7x and 99th tail latency reduced to 96%/93% compared to RDMA with RoCEv2/InfiniBand.},
   journal={IEEE Transactions on Computers Special Issue on CXL},
   pages={???--???},
   year={2026},
   month={March},
-  publisher={IEEE},
-  url={},
+  publisher={IEEE Computer Society},
+  url={https://doi.ieeecomputersociety.org/10.1109/TC.2026.3654926},
   selected={true}
 }
 
